@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background: #FEF1F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-height: 5px;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(224, 50, 172);
+}
+
+.general {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input {
+    background-color: #FEE5F0;
+    border: 1px solid #FEE5F0;
+    border-radius: 5px;
+    width: 300px;
+}
+
+input:hover {
+    background-color: #FECCE3;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #F83C86;
+    color: white;
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color: #CA0C47;
+}
+
+.gif-container #gif-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 20px;
+    height: 50px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.gif-container img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px rgb(68, 4, 28);
+    transition: transform 0.3s;
+    height: 100px;
+    width: 100px;
+}
+
+.gif-container img:hover {
+    transform: scale(2.0);
+}
